@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nag {
+    background-color:black ;
+    padding: 1 rem;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li  {
+    display: inline;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5 rem 1 rem;
+    display: block;
+}
+nav ul li a:hover {
+    background-color: grey;
+    border-radius: 5 px;
+}
